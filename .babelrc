@@ -1,0 +1,43 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": ["> 1%", "last 2 versions", "not ie <= 8"],
+          //"ie": 9
+//          forceAllTransforms:true
+        },
+        "modules": false
+//        "debug": true,
+//                "include": ["transform-es2015-shorthand-properties"],
+//                "useBuiltIns": true
+      }
+    ],
+    //    "stage-0"
+    //    "stage-1",
+    "stage-2"
+    //    "stage-3"
+  ],
+  "plugins": [
+    "transform-runtime"
+//    "transform-es3-property-literals",
+//    "transform-es3-member-expression-literals",
+//    "transform-es2015-classes",
+//    "transform-proto-to-assign",
+//    "transform-es2015-shorthand-properties",
+//    "transform-class-properties",
+////    "transform-decorators-legacy",
+//    "transform-object-rest-spread",
+//    "transform-export-extensions",
+//    "transform-async-to-module-method",
+//    "transform-async-generator-functions",
+//    ["component", [
+//      {
+//        "libraryName": "element-ui",
+//        "styleLibraryName": "theme-default"
+//      }
+//    ]]
+  ],
+//  "comments": false
+}
